@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#btn-load {
+    background-color: #ff9861;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: black !important;
+    cursor: pointer;
+}
+
+.button {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button-active {
+    background-color: #33CCCC;
+}
+
+.button-active:hover {
+    background-color: skyblue;
+}
+
+.button-disabled {
+    background-color: #ff9861;
+}
+
+.link-active {
+    text-decoration: underline;
+}
+
+#bcg {
+    background-image: linear-gradient(#fbff20, #ffb809) !important;
+}
+
+#pikachu {
+    width: 18em;
+    position: fixed;
+    bottom: 1px;
+    right: 1px;
+}
+
